@@ -1,0 +1,8 @@
+D:\GithubRepos\neuralDataDemo\neuralData
+
+/neuralData/*
+
+
+# Ignore OS-specific files (Mac/Windows)
+.DS_Store
+Thumbs.db
