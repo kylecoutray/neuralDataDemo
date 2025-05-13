@@ -4,7 +4,9 @@
 
 clear; clc;
 
-data_folder = 'D:/GithubRepos/neuralDataDemo/neuralData';
+%mac directory: /Users/kyle./Documents/GitHub/neuralDataDemo/neuralData/
+%windows directory: D:/GithubRepos/neuralDataDemo/neuralData
+data_folder = '/Users/kyle./Documents/GitHub/neuralDataDemo/neuralData/';
 files = dir(fullfile(data_folder,'*.mat'));
 results = [];
 

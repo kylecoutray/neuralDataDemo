@@ -2,7 +2,8 @@ function plotSpatialTuningMap_Conditions(filename)
 % plotSpatialTuningMap_Conditions('ADR014_1_3096.mat')
 % Shows match vs non-match spatial tuning maps and PSTHs for one neuron
 
-neuralDataDir = 'neuralData';  % adjust if needed
+%mac directory: /Users/kyle./Documents/GitHub/neuralDataDemo/neuralData/
+neuralDataDir = '/Users/kyle./Documents/GitHub/neuralDataDemo/neuralData/';  % adjust if needed
 fpath = fullfile(neuralDataDir, filename);
 
 if ~isfile(fpath)
@@ -87,7 +88,7 @@ for i = 1:3
 end
 
 % Bottom row: PSTHs
-subplot(3,4,[9 10]);
+subplot(3,4,[9 10 11]);
 plot(bin_centers, rates.match.psth, 'w', 'LineWidth', 2); hold on;
 plot(bin_centers, rates.nonmatch.psth, 'r', 'LineWidth', 2);
 xlabel('Time from Cue (s)');
@@ -98,5 +99,6 @@ xlim([-1 4]);
 grid on;
 
 sgtitle(['Spatial Maps + PSTHs: ', filename], 'Interpreter', 'none');
+
 
 end

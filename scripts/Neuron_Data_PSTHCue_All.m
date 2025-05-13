@@ -5,7 +5,7 @@ function Neuron_Data_PSTHCue_All()
 
 % CONFIGURATION
 excel_file = '/scripts/NeuronList3_APpostonly.xlsx';     % list of neurons
-data_folder = 'D:/GithubRepos/neuralDataDemo/neuralData'; % where .mat files live
+data_folder = '/Users/kyle./Downloads/matlabDemos/allNeuralData'; % where .mat files live
 bin_width = 0.10;                              % seconds
 bin_edges = -1:bin_width:4;
 bins = bin_edges + 0.5 * bin_width;

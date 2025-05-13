@@ -2,7 +2,7 @@ function plotSpatialTuningMap(filename)
 % plotSpatialTuningMap('ADR014_1_3096.mat')
 % Shows spatial tuning maps and cue PSTH for one neuron
 
-neuralDataDir = 'neuralData';  % adjust if needed
+neuralDataDir = '/Users/kyle./Documents/GitHub/neuralDataDemo/neuralData/';  % adjust if needed
 fpath = fullfile(neuralDataDir, filename);
 
 if ~isfile(fpath)
