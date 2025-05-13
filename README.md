@@ -24,6 +24,7 @@ It supports both **population-level summaries** and **individual neuron deep-div
 | `NeuronList3_APostonly.xlsx`        | Excel metadata list of neurons (not required to run pipeline).                               |
 | `epoch_spike_analysis.mat`          | Output file: spike tuning results for all neurons.                                           |
 | `epoch_spike_analysis_enriched.mat` | Enriched output: includes selectivity metrics and p-values.                                  |
+| `driveLink.txt`                     | Download link for sample neural data.                                                        |
 
 ---
 
