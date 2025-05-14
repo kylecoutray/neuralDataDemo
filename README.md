@@ -1,7 +1,13 @@
 
 
 Explanation and Demo Video Below:
-[ LINK COMING SOON ]
+[[LINK HERE](https://www.youtube.com/watch?v=2fx3IunkOzM)]
+
+<a href="https://www.youtube.com/watch?v=2fx3IunkOzM" target="_blank">
+  <img src="https://img.youtube.com/vi/2fx3IunkOzM/maxresdefault.jpg" alt="Watch the video" width="300"/>
+</a>
+
+---
 
 This project analyzes single-unit recordings from the primate prefrontal cortex during a spatial working memory task. The goal is to quantify and visualize spatial tuning of neurons across different task epochs: **fixation**, **cue**, and **delay**.
 
